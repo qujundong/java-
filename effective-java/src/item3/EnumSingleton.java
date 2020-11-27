@@ -1,6 +1,5 @@
 package item3;
 
-<<<<<<< HEAD
 import java.io.*;
 import java.sql.Connection;
 import java.util.ArrayList;
@@ -52,21 +51,5 @@ public class EnumSingleton implements Serializable {
         System.out.println(s2);
         System.out.println(s1 == s2);
     }
-=======
-import java.sql.Connection;
-import java.util.ArrayList;
-import java.util.List;
-//使用枚举类实现返回list的单例模式
-public class EnumSingleton {
-    public enum Singleton{
-        INSTANCE;
-        private List<Integer> list = null;
-        private Singleton(){
-            list = new ArrayList<>();
-        }
-        public List getInstance(){
-            return list;
-        }
-    }
->>>>>>> cc3bee2602376cc24a3d76c5bc7746a148d6946f
+
 }
